@@ -11,14 +11,15 @@ q2 = 0
 phidoti = 0
 
 for i in range(0,100000):
-    #Do some calculations that we dont know how to do...
+    # Do some calculations that we dont know how to do...
     q1 += 1
 
 i = 0
 array = []
 while i < 10:
     array.append(i)
-
+    i += 1
+    # We made an ifinite loop
 print(array)
 
 fig = plt.figure()  # an empty figure with no axes
