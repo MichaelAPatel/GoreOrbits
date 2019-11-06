@@ -19,8 +19,11 @@ array = []
 while i < 10:
     array.append(i)
     i += 1
-    # We made an ifinite loop
-print(array)
+    # We made an infinite loop
+string = ""
+for i in array:
+    string += str(i) + " "
+print(string)
 
 fig = plt.figure()  # an empty figure with no axes
 fig.suptitle('Eventually we will have a cool graph here!')
