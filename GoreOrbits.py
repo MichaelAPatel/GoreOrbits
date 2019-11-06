@@ -14,6 +14,15 @@ for i in range(0,100000):
     #Do some calculations that we dont know how to do...
     q1 += 1
 
+i = 0
+array = []
+while i < 10:
+    array.append(i)
+
+print(array)
+
 fig = plt.figure()  # an empty figure with no axes
 fig.suptitle('Eventually we will have a cool graph here!')
 plt.show()
+
+
