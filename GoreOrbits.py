@@ -18,6 +18,7 @@ i = 0
 array = []
 while i < 10:
     array.append(i)
+    i += 1
 
 print(array)
 
